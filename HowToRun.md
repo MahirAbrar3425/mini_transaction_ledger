@@ -37,7 +37,4 @@ services:
 docker-compose up -d
 ```
 
-```
 
-If you want, I can also **add a 1–2 line note** about accessing frontend and backend in the browser so it’s clearer for GitHub users. Do you want me to add that?
-```
