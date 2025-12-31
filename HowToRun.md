@@ -10,12 +10,12 @@ Create a minimal docker-compose.yml on the machine:
 
 services:
   backend:
-    image: yourdockerhubusername/transaction-ledger-backend:latest
+    image: mahirabrar3425/transaction-ledger-backend:latest
     ports:
       - "8080:8080"
 
   frontend:
-    image: yourdockerhubusername/transaction-ledger-frontend:latest
+    image: mahirabrar3425/transaction-ledger-frontend:latest
     ports:
       - "3000:80"
     depends_on:
