@@ -1,0 +1,16 @@
+services:
+  backend:
+    build: ./transaction-ledger
+    container_name: backend
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build: ./frontend/project-1
+    container_name: frontend
+    ports:
+      - "3000:80"   # map host 3000 -> container 80
+    environment:
+      - VITE_API_BASE_URL=http://backend:8080/api
+    depends_on:
+      - backend

@@ -1,0 +1,13 @@
+package com.tl.transaction_ledger;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TransactionLedgerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TransactionLedgerApplication.class, args);
+	}
+
+}
