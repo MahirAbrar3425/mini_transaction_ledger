@@ -1,4 +1,3 @@
-Got it! Here's a simple `README.md` exactly based on what you provided:
 
 ````markdown
 # Transaction Ledger Docker Setup
